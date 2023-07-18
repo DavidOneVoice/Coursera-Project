@@ -71,14 +71,14 @@ main{
     font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
-    margin-left: 2rem;
+    margin-left: 6rem;
     margin-top: 2rem;
     letter-spacing: 1.5rem;
     animation: Specialanim 1s ease-in normal;
 }
 @keyframes Specialanim {
     from{margin-left: -2rem; font-size: 1rem;}
-    to{margin-left: 2rem; font-size: 3rem;}
+    to{margin-left: 6rem; font-size: 3rem;}
 }
 
 #section p{
@@ -108,11 +108,11 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .offer{
-    width: 30%;
+    width: 32%;
     background-color: gold;
     height: 80vh;
     border-radius: 10px;
@@ -149,8 +149,8 @@ main{
 }
 footer{
     width: 100%;
-    height: 7rem;
-    margin-top: 500px;
+    height: 5rem;
+    margin-top: 27rem;
     background-color: gold;
     display: flex;
     flex-wrap: wrap;
@@ -176,4 +176,152 @@ footer h3{
 #copyright img{
     width: 3rem;
     height: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    #section p{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    #section img{
+        height: 60vh;
+    }
+    .blog{
+        margin-top: 5rem;
+    }
+    footer{
+        height: 5rem;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #section p{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        animation: none;
+    }
+    #section img{
+        height: 65vh;
+    }
+    #section h1{
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        margin-left: 4rem;
+    }
+    .blog{
+        margin-top: 8rem;
+    }
+    #nav a{
+        font-size: 1rem;
+    }
+    .offer{
+        width: 48%;
+    }
+    #discountoffer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 1rem;
+        height: 55vh;
+    }
+    #discountoffer img{
+        width: 40%;
+    }
+    #discountoffer p{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 40%;
+        font-size: 0.9rem;
+    }
+    #discountoffer h2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    #discountoffer a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+        margin-right: 5rem;
+        margin-top: -2rem;
+    }
+    footer{
+        margin-top: 54rem;   
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    footer img{
+    width: 7rem;
+    height: 2rem;
+    margin-left: 2rem;
+    }
+    footer h3{
+    margin-right: 3rem;
+    color: black;
+    font-size: 1rem;
+    }
+    #copyright img{
+    width: 2rem;
+    height: 1rem;
+    }
+}
+
+@media (max-width:500px) {
+    #section h1{
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    #section p{
+        font-size: 0.9rem;
+        margin-top: 4rem;
+    }
+    .blog{
+        margin-top: 8rem;
+    }
+    .offer{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #discountoffer{
+        margin-top: 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height: 85vh;
+        width: 100%;
+    }
+    #discountoffer p{
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 2rem;
+        
+    }
+    #discountoffer a{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-right: 8rem;
+    }
+    .offer p{
+        font-size: 1rem;
+    }
+    .offer a{
+        font-size: 1rem;
+    }
+    #discountoffer img{
+        width: 100%;
+    }
+    footer{
+        margin-top: 98rem;
+    }
 }
