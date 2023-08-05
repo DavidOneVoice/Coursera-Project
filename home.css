@@ -190,7 +190,10 @@ footer h3{
         margin-top: 5rem;
     }
     footer{
-        height: 5rem;
+        height: 2rem;
+        margin-top: 30rem;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
     }
 }
 
@@ -202,7 +205,7 @@ footer h3{
         animation: none;
     }
     #section img{
-        height: 65vh;
+        height: 80vh;
     }
     #section h1{
         font-size: 2rem;
@@ -210,7 +213,7 @@ footer h3{
         margin-left: 4rem;
     }
     .blog{
-        margin-top: 8rem;
+        margin-top: 12rem;
     }
     #nav a{
         font-size: 1rem;
@@ -255,9 +258,9 @@ footer h3{
         margin-top: -2rem;
     }
     footer{
-        margin-top: 54rem;   
-        padding-top: 1rem;
-        padding-bottom: 0rem;
+        margin-top: 57rem;   
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     footer img{
     width: 7rem;
@@ -285,12 +288,25 @@ footer h3{
         font-size: 0.9rem;
         margin-top: 4rem;
     }
+    #section img{
+        height: 103vh;
+    }
     .blog{
-        margin-top: 8rem;
+        margin-top: 22rem;
+    }
+    .blog a{
+        font-size: 4rem;
     }
     .offer{
         width: 100%;
         margin-bottom: 1rem;
+        padding-bottom: 2rem;
+        height: 100vh;
+    }
+    .offer p{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
     }
     #discountoffer{
         margin-top: 0rem;
@@ -298,7 +314,7 @@ footer h3{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        height: 85vh;
+        height: 100vh;
         width: 100%;
     }
     #discountoffer p{
@@ -308,20 +324,20 @@ footer h3{
         
     }
     #discountoffer a{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-top: 1rem;
-        margin-right: 8rem;
+        margin-left: 5px;
     }
     .offer p{
         font-size: 1rem;
     }
     .offer a{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     #discountoffer img{
         width: 100%;
     }
     footer{
-        margin-top: 98rem;
+        margin-top: 136rem;
     }
 }
